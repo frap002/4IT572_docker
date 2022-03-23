@@ -2,6 +2,9 @@ name: 'Build and test our eshop'
 
 on: 
   workflow_dispatch:
+  pull_request:
+    branches:
+      - master
   push:
 
 jobs:
